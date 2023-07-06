@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(140,35,50, 0.9);
+    max-width: 100%;
+  }
+  
+  .image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: solid 10px;
+    border-radius: 10%;
+  }
+  
+  .fig {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 14px;
+    color: rgba(247,245,247,.9);
+  }
+  
+  h1 {
+    font-family: Verdana;
+    text-align: center;
+    font-size: 36px;
+    color: rgba(247,245,247,.9);
+  }
+  
+  .secondary-title {
+    text-align: center;
+    font-size: 28px;
+    color: rgba(247,245,247,.9);
+  }
+  
+  .img-div {
+  }
+  
+  .p-format {
+    text-align: center;
+    font-family: Verdana;
+    color: rgba(247,245,247,.9);
+  }
+  
+  .p-format > a {
+    color: white;
+  }
+  
