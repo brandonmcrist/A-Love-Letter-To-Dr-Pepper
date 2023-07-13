@@ -55,9 +55,33 @@ body {
     text-align: center;
     font-family: Verdana;
     color: rgba(247,245,247,.9);
+    flex-direction: row;
+    width: auto;
+    vertical-align: text-bottom;
+
   }
   
   .p-format > a {
     color: white;
   }
+
+  .flex-history {
+    display: flex;
+    flex-direction: row;
+    border: solid 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
   
+  .img-history {
+    flex: 2;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+    max-width: 226px;
+    max-height: 327px;
+    margin: auto;
+    box-sizing: border-box;
+  }
